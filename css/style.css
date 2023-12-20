@@ -27,6 +27,11 @@ html {
   color: var(--secondary-color);
   font-weight: bold;
 }
+.section-top-title {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 13px;
+}
 
 /* Header Area start */
 .hdr-top-wrapper {
@@ -73,4 +78,82 @@ html {
   color: var(--secondary-color);
   margin-right: 8px;
 }
+.achievement-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+.single-achievement {
+  border: 0.5px solid #ddd;
+  box-shadow: 0 10px 10px -5px #ddd;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.single-achievement h2 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.single-achievement h4 {
+  font-weight: bold;
+  color: #000;
+}
 /* about-us-goLearn end */
+/* course-category start */
+#course-category {
+  padding: 60px 0;
+}
+.section-title-course-categories {
+  margin-bottom: 25px;
+}
+.categories-buttons {
+}
+.categories-buttons button {
+  padding: 6px 12px;
+  border-radius: 30px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  outline: none;
+  background-color: transparent;
+  margin: 8px 5px;
+}
+.categories-buttons button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.all-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+.last-three-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.single-category {
+  border: 0.5px solid #ddd;
+  box-shadow: 0 10px 10px -5px #ddd;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgba(243, 248, 254, 1);
+}
+.single-category:nth-child(2) {
+  background-color: #fff;
+}
+.single-category h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.icon-img-bg {
+  background-color: #e5edfa;
+  padding: 15px;
+  border-radius: 50%;
+}
+/* course-category end */
