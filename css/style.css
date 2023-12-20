@@ -1,11 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap");
 
+:root {
+  --primary-color: #0073d6;
+  --secondary-color: #4662ac;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
 body,
 html {
   font-family: "Khula", sans-serif;
 }
+
+/* common styles */
+.secondary-goLearn-text-color {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+/* Header Area start */
+.hdr-top-wrapper {
+  padding: 15px 0;
+}
+.hdr-top-wrapper ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.hero-area {
+  /* background-color: #13273c; */
+  background-image: url("../assets/img/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  padding: 20px 0;
+  color: #fff;
+  height: auto;
+  overflow: hidden;
+}
+.hero-content-goLearn h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero-img {
+  /* width: 656.9px;
+  height: 652.64px; */
+}
+
+/* Header Area End */
+
+/* about-us-goLearn start */
+#about-us-goLearn {
+  padding: 60px 0;
+}
+.about-us-left-content h5 {
+  color: var(--secondary-color);
+  font-size: 13px;
+}
+#about-us-goLearn .fa-check {
+  color: var(--secondary-color);
+  margin-right: 8px;
+}
+/* about-us-goLearn end */
