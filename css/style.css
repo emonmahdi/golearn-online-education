@@ -23,14 +23,22 @@ html {
 }
 
 /* common styles */
-.goLearn-btn {
+.goLearn-btn,
+.active-button {
   border: none;
   background-color: #4662ac;
   padding: 8px 15px;
   color: #fff;
   border-radius: 30px;
 }
-
+.goLearn-btn:hover {
+}
+.goLearn-btn-transparent {
+  background-color: transparent;
+  border: 1px solid #4662ac;
+  color: #4662ac;
+  border-radius: 30px;
+}
 .secondary-goLearn-text-color {
   color: var(--secondary-color);
   font-weight: bold;
@@ -117,7 +125,7 @@ html {
 .section-title-course-categories {
   margin-bottom: 25px;
 }
-
+/* 
 .categories-buttons button {
   padding: 6px 12px;
   border-radius: 30px;
@@ -130,7 +138,7 @@ html {
 .categories-buttons button:hover {
   background-color: var(--primary-color);
   color: #fff;
-}
+} */
 .all-categories {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -191,7 +199,8 @@ html {
   transition: background-color 0.3s;
   z-index: 9999;
 }
-.single-course:hover .single-course-overlay-content {
+.single-course:hover .single-course-overlay-content,
+.active-single-course {
   display: block;
   height: 100%;
 }
