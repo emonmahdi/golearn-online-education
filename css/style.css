@@ -172,6 +172,8 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
+  width: 60%;
+  margin: 0 auto;
 }
 .single-category {
   border: 0.5px solid #ddd;
@@ -205,6 +207,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  margin-bottom: 20px;
 }
 .course-img {
   position: relative;
@@ -366,6 +369,9 @@ html {
 /* blog-section start */
 #blog-section {
   padding: 60px 0;
+}
+.single-blog {
+  margin-bottom: 20px;
 }
 .single-blog h3 {
   font-size: 20px;

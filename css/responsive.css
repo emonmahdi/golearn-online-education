@@ -13,6 +13,10 @@
   .hero-header-img img {
     width: 80%;
   }
+  .last-three-categories {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -29,5 +33,29 @@
     padding-top: 40px;
     font-size: 30px;
     margin: 20px 0;
+  }
+  /* about us section */
+  .about-us-img img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .categories-buttons button {
+    margin-bottom: 15px;
+  }
+  .course-img img {
+    width: 100%;
+  }
+  .right-side-features img {
+    width: 70%;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+  .single-blog img {
+    width: 100%;
+  }
+  .footer-section-title {
+    width: 80%;
+    margin: 0 auto;
   }
 }
