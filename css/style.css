@@ -23,6 +23,14 @@ html {
 }
 
 /* common styles */
+.goLearn-btn {
+  border: none;
+  background-color: #4662ac;
+  padding: 8px 15px;
+  color: #fff;
+  border-radius: 30px;
+}
+
 .secondary-goLearn-text-color {
   color: var(--secondary-color);
   font-weight: bold;
@@ -250,9 +258,6 @@ html {
 .feature-icon-bg {
   background-color: #e5edfa;
   padding: 15px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
   border-radius: 50%;
 }
 
@@ -266,3 +271,118 @@ html {
   line-height: 24px;
 }
 /* features-section end */
+/* partner-section start */
+#partner-section {
+  padding: 60px 0;
+  background-color: #fafdff;
+}
+.single-partner {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.single-partner:nth-child(2) {
+  padding-top: -20px;
+}
+.single-partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* partner-section end */
+/* testimonial-section start */
+#testimonial-section {
+  padding: 60px 0;
+}
+.single-testimonial {
+  background-color: #f3f8fe;
+  padding: 30px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 562.55px;
+}
+.two-testimonial {
+  background-color: #fff;
+}
+.testimonial-review {
+  margin: 10px 0;
+}
+.testimonial-review li {
+  display: inline-block;
+}
+.testimonial-review li i {
+  color: #eb8d00;
+}
+.testimonial-user {
+  margin-top: 60px;
+}
+.testimonial-user img {
+  margin-bottom: 10px;
+}
+.testimonial-user h4 {
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+/* testimonial-section end */
+/* blog-section start */
+#blog-section {
+  padding: 60px 0;
+}
+.single-blog h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.single-blog .fa-calendar {
+  color: rgba(140, 145, 148, 1);
+}
+.blog-content h4 {
+  font-size: 14px;
+}
+/* blog-section end   
+*/
+/* Footer section start */
+#footer-section {
+  background: url("../assets/img/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 60px 0;
+}
+.footer-section-title {
+  width: 60%;
+  margin: 0 auto;
+}
+.footer-section-title h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.input-search {
+  width: 400px;
+  background-color: #fff;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.input-search input {
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.footer-right-single-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+/* Footer section end */
