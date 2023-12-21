@@ -109,8 +109,7 @@ html {
 .section-title-course-categories {
   margin-bottom: 25px;
 }
-.categories-buttons {
-}
+
 .categories-buttons button {
   padding: 6px 12px;
   border-radius: 30px;
@@ -234,3 +233,36 @@ html {
   font-size: 24px;
 }
 /* course end */
+
+/* features-section start */
+#features-section {
+  padding: 60px 0;
+}
+.left-side-features .single-feature {
+  padding: 15px 30px;
+  gap: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.feature-icon-bg {
+  background-color: #e5edfa;
+  padding: 15px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+}
+
+.left-side-features .single-feature h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.left-side-features .single-feature h4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+/* features-section end */
