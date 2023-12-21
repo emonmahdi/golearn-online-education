@@ -50,6 +50,26 @@ html {
 }
 
 /* Header Area start */
+.course-dropdown {
+  border-radius: 30px;
+}
+.search-filed-navbar {
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.search-filed-navbar input .hdr-top-wrapper {
+  padding: 15px 0;
+  border: none;
+  outline: none !important;
+}
+.fa-magnifying-glass {
+  color: var(--primary-color);
+}
+.search-input {
+  border: none;
+  outline: none;
+  padding: 10px 6px;
+}
 .hdr-top-wrapper {
   padding: 15px 0;
 }
@@ -58,7 +78,9 @@ html {
   display: inline-block;
   padding: 0 10px;
 }
-
+.hdr-top-right {
+  text-align: center;
+}
 .hero-area {
   /* background-color: #13273c; */
   background-image: url("../assets/img/header.png");
@@ -69,6 +91,7 @@ html {
   padding: 20px 0;
   color: #fff;
   height: auto;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 .hero-content-goLearn h1 {

@@ -1,0 +1,33 @@
+@media (max-width: 920px) {
+  .logo-img {
+    margin-top: 20px;
+  }
+  .course-dropdown {
+    margin: 20px 0 0 0;
+  }
+  .search-filed-navbar {
+    margin-left: 0;
+    width: 300px;
+    margin: 15px 0;
+  }
+  .hero-header-img img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hdr-top-right {
+    margin: 15px 0;
+  }
+  .hdr-top-left {
+    text-align: center;
+  }
+  .hero-header-img img {
+    width: 60%;
+  }
+  .hero-content-goLearn h1 {
+    padding-top: 40px;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+}

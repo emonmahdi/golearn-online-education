@@ -66,7 +66,23 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">goLearn</a>
+              <a class="navbar-brand" href="#"> 
+                <img src="assets/img/logo.png" class="img-fluid logo-img" alt="">
+              </a>
+              <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle course-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </button>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="search-filed-navbar d-flex justify-content-center align-items-center bg-white px-4">
+                <i class="fa-solid fa-magnifying-glass"></i> 
+                <input type="text" class="search-input" placeholder="Search Course">
+              </div>
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
@@ -74,13 +90,16 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link text-light"  href="#">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Page</a>
+                  <a class="nav-link text-light" href="#">Page</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link text-light" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Contact</a>
                 </li>
               </ul>
             </div>
@@ -102,7 +121,7 @@
                   Exerci tation ullamcorper suscipit lobortis aliquip example ea
                   commodo consequat lorem ipsum duis dolore.
                 </p>
-                <button class="btn btn-primary">Get Starter New</button>
+                <button class="goLearn-btn">Get Starter New</button>
               </div>
             </div>
             <div class="col-md-6">
